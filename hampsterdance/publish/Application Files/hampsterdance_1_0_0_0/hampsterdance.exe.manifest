@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="hampsterdance.exe" version="1.0.0.0" publicKeyToken="b00d1089998a28e8" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="hampsterdance" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="hampsterdance.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="hampsterdance.exe" size="10752">
+      <assemblyIdentity name="hampsterdance" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>V//4mwgMwzwuVtnEkuaMQSsMdHc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=MONETT\PHeintz" issuerKeyHash="4368230aa61b23d3d7046f54f6b7c3555b25beb6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>mn6WPIPTCYMUmp2Iq1F2Zw0ivJM=</DigestValue></Reference></SignedInfo><SignatureValue>J3oKxZBz9dTSGCmA17HwCuP+emUCJhhMsOVO3DdpNp0kSTk3WWzJj7S55AakMtCPitWuMoZzEBMMEOevC/C6/2b/W3dddK17qiAKsjZaAeh4Odvv0POxVhREedQ8PA1YG/mhihWYZWtY1j2MnJbRg+cC6KQbYWiZN5RjtYZYoi8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tinjZVLfzUuXUQRlRK//oAcOlIUfi9ztAgiQ0z2wJaZcaXfzpXT8PPy7rERiOX1MuPUCYx4jRi7ZZpiOmrUd5SGdOsLg/p6dcrvGS2Ld5kCnMum+7yIn/xx4124WeN/wyXXkdf74K2fYurLXyhvuAn5h9XJVnCT8y0BG9hQdqes=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="93bc220d677651ab889d9a148309d3833c967e9a" Description="" Url=""><as:assemblyIdentity name="hampsterdance.exe" version="1.0.0.0" publicKeyToken="b00d1089998a28e8" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MONETT\PHeintz</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ToqC7DUBnswdOWpupLtpXGJfpM0=</DigestValue></Reference></SignedInfo><SignatureValue>tKt2R4flyS+ubjpIqz35Hvgurk2qi0Ua4y11T8IMvrvyUhX3Sf3x5QfSnt5EuT++h00j/owThhGWBpEv5OSJvH8RuyTBh/JizXOZ7AdtwE/S5fiSQtQTBto2T+4J9ZvElRuyihPUV19I+ymIRYBF8ddcvOiLvWOmiLO7oL2tE2w=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tinjZVLfzUuXUQRlRK//oAcOlIUfi9ztAgiQ0z2wJaZcaXfzpXT8PPy7rERiOX1MuPUCYx4jRi7ZZpiOmrUd5SGdOsLg/p6dcrvGS2Ld5kCnMum+7yIn/xx4124WeN/wyXXkdf74K2fYurLXyhvuAn5h9XJVnCT8y0BG9hQdqes=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQZguGIDMrYrdPL4M+/2U5aTANBgkqhkiG9w0BAQUFADAnMSUwIwYDVQQDHhwATQBPAE4ARQBUAFQAXABQAEgAZQBpAG4AdAB6MB4XDTE0MDIwODAyMDc0NFoXDTE1MDIwODA4MDc0NFowJzElMCMGA1UEAx4cAE0ATwBOAEUAVABUAFwAUABIAGUAaQBuAHQAejCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtinjZVLfzUuXUQRlRK//oAcOlIUfi9ztAgiQ0z2wJaZcaXfzpXT8PPy7rERiOX1MuPUCYx4jRi7ZZpiOmrUd5SGdOsLg/p6dcrvGS2Ld5kCnMum+7yIn/xx4124WeN/wyXXkdf74K2fYurLXyhvuAn5h9XJVnCT8y0BG9hQdqesCAwEAATANBgkqhkiG9w0BAQUFAAOBgQCvszlPg0mXBVVdROdrVE22InNdMjt6E5gKloniu/ksEvlPgUs/t+86VITS6fo/+DZo8ncAwYlx/RMHto+kgT95OrOqBZCb7pw9bLvu+w8CVVG3PbeT4K24mklfIVVaHjidvXzUQMVFOkz/YA/fTycNzgrrZfwB4O2D+xk+7+fJ1g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

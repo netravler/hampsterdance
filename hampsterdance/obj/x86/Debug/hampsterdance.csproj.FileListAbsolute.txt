@@ -1,0 +1,11 @@
+C:\Users\pheintz\Documents\Visual Studio 2010\Projects\hampsterdance\hampsterdance\bin\Debug\hampsterdance.exe.manifest
+C:\Users\pheintz\Documents\Visual Studio 2010\Projects\hampsterdance\hampsterdance\bin\Debug\hampsterdance.application
+C:\Users\pheintz\Documents\Visual Studio 2010\Projects\hampsterdance\hampsterdance\bin\Debug\hampsterdance.exe
+C:\Users\pheintz\Documents\Visual Studio 2010\Projects\hampsterdance\hampsterdance\bin\Debug\hampsterdance.pdb
+C:\Users\pheintz\Documents\Visual Studio 2010\Projects\hampsterdance\hampsterdance\obj\x86\Debug\hampsterdance.Form1.resources
+C:\Users\pheintz\Documents\Visual Studio 2010\Projects\hampsterdance\hampsterdance\obj\x86\Debug\hampsterdance.Properties.Resources.resources
+C:\Users\pheintz\Documents\Visual Studio 2010\Projects\hampsterdance\hampsterdance\obj\x86\Debug\hampsterdance.csproj.GenerateResource.Cache
+C:\Users\pheintz\Documents\Visual Studio 2010\Projects\hampsterdance\hampsterdance\obj\x86\Debug\hampsterdance.exe.manifest
+C:\Users\pheintz\Documents\Visual Studio 2010\Projects\hampsterdance\hampsterdance\obj\x86\Debug\hampsterdance.application
+C:\Users\pheintz\Documents\Visual Studio 2010\Projects\hampsterdance\hampsterdance\obj\x86\Debug\hampsterdance.exe
+C:\Users\pheintz\Documents\Visual Studio 2010\Projects\hampsterdance\hampsterdance\obj\x86\Debug\hampsterdance.pdb
